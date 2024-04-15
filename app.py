@@ -10,7 +10,7 @@ app.config["SECRET_KEY"] = "seasdad(*2sffcra01^23sdet"
 CORS(app)
 
 # Get this URL from the Azure Overview page of your API web app
-api_url = "https://hunter-ml-backend.azurewebsites.net/" # base url for API endpoints
+api_url = "https://hunter-gibson-backend.azurewebsites.net/" # base url for API endpoints
 
 # main index page route
 @app.route("/")
